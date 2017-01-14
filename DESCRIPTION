@@ -1,11 +1,14 @@
 Package: wlehar
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Weight Lifting Dataset for Human Activity Recognition
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(
+    person("Dylan", "Stark", , "dylan.stark@gmail.com", c("aut", "cre"))
+    )
+Description: Weight lifting dataset from the Human Activity Recognition
+    project.
+License: CCO
 Encoding: UTF-8
 LazyData: true
+URL: http://github.com/dylan-stark/ucihar
+BugReports: https://github.com/hadley/ucihar/issues
