@@ -1,3 +1,5 @@
 packrat/lib*/
 .Rproj.user
 .Rhistory
+data-raw/pml-*.csv*
+data-raw/WearableComputing_weight_lifting_exercises_biceps_curl_variations.csv*
