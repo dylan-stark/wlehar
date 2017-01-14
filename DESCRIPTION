@@ -10,5 +10,5 @@ Description: Weight lifting dataset from the Human Activity Recognition
 License: CCO
 Encoding: UTF-8
 LazyData: true
-URL: http://github.com/dylan-stark/ucihar
-BugReports: https://github.com/hadley/ucihar/issues
+URL: http://github.com/dylan-stark/wlehar
+BugReports: https://github.com/dylan-stark/wlehar/issues
