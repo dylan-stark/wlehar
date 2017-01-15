@@ -1,6 +1,7 @@
 Package: wlehar
 Type: Package
 Title: Weight Lifting Dataset for Human Activity Recognition
+Date: 2017-01-14
 Version: 0.1.0
 Authors@R: c(
     person("Dylan", "Stark", , "dylan.stark@gmail.com", c("aut", "cre"))
