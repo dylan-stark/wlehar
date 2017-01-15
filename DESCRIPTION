@@ -12,3 +12,4 @@ Encoding: UTF-8
 LazyData: true
 URL: http://github.com/dylan-stark/wlehar
 BugReports: https://github.com/dylan-stark/wlehar/issues
+RoxygenNote: 5.0.1

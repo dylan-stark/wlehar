@@ -514,21 +514,24 @@ get_jhu_data <- function() {
 gen_wlehar <- function() {
   wle_file %>%
     remove_div_by_0() %>%
-    read_csv(col_types = wle_col_spec)
+    read_csv(col_types = wle_col_spec) %>%
+    as.data.frame()
 }
 
 gen_jhu_training <- function() {
   jhu_training_file %>%
     remove_div_by_0() %>%
     read_csv(col_types = jhu_training_col_spec) %>%
-    select(-X1)
+    select(-X1) %>%
+    as.data.frame()
 }
 
 gen_jhu_testing <- function() {
   jhu_testing_file %>%
     remove_div_by_0() %>%
     read_csv(col_types = jhu_testing_col_spec) %>%
-    select(-X1)
+    select(-X1) %>%
+    as.data.frame()
 }
 
 ################################################################################
